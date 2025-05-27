@@ -2,7 +2,7 @@
 def MinMultiploInverso(r1, r2, t1, t2, totienteDeN):
 
     # Descubro qual o quociente de r1 por r2
-    q = int(r1 / r2) 
+    q = r1 // r2 
 
     # Desbro o resto da divisão de r1 por r2
     r = r1 - q * r2
